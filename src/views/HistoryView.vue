@@ -1,29 +1,6 @@
 <template>
-  <div class="main-welcome">
-    <span class="main-welcome__title">
-      Welcome to <span>Watchlists</span>
-    </span>
-    <p>
-      Browse movies, add them to watchlists and share them with friends. Just
-      click the
-      <img src="../assets/img/icons/ribbon.svg" alt="" /> to add a movie, the
-      poster to see more details or <i class="icon-check"></i> to mark the movie
-      as watched.
-    </p>
-  </div>
-  <div class="main-search">
-    <div class="form-box form-box__search">
-      <i class="icon-search"></i>
-      <input
-        type="search"
-        name="search"
-        class="form-control"
-        placeholder="Search  for movies by title" />
-      <button class="btn">search</button>
-    </div>
-  </div>
-  <div class="movies-list movies-list__popular">
-    <span class="movies-list__title">Popular movies right now</span>
+  <div class="main-history">
+    <a href="#" class="main-history__clear link">Clear history</a>
     <div class="movies-list__box">
       <a href="#" class="movies-item">
         <span class="movies-item__add"></span>
